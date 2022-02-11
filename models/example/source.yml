@@ -8,3 +8,11 @@ sources:
         columns:
           - name: id
           - name: column1
+
+  - name: upstream_test_another
+    database: analytics
+    tables:
+      - name: test_table_another
+        columns:
+          - name: id
+          - name: column1
