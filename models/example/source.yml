@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: upstream_test
+    database: analytics
+    tables:
+      - name: test_table
+        columns:
+          - name: id
+          - name: column1
